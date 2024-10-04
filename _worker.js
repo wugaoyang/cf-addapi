@@ -8,7 +8,6 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
-
 export default {
     async fetch(request, env, ctx) {
         return new Response('104.18.53.181#自选\n' +
