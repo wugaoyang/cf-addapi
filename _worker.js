@@ -10,7 +10,10 @@
 
 export default {
     async fetch(request, env, ctx) {
-        return new Response('172.64.167.8#自选官方优选28.57MB/s\n' +
+        return new Response(
+            '45.194.53.13#自选官方优选US 22.29MB/s\n'+
+            '45.194.53.13#自选官方优选US 19.95MB/s\n'+
+            '172.64.167.8#自选官方优选28.57MB/s\n' +
             '172.64.141.79#自选官方优选26.65MB/s\n' +
             '172.64.194.184#自选官方优选24.31MB/s\n' +
             '172.64.136.145#自选官方优选23.38MB/s\n' +
