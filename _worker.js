@@ -8,7 +8,8 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
-let URLS = 'www.ipget.net\n';
+let URLS = 'www.ipget.net\n' +
+    'ct.090227.xyz';
 
 let US_IPS = '104.17.74.165#自选官方优选US 23.16MB/s\n' +
     '141.101.120.87#自选官方优选US 22.99MB/s\n' +
