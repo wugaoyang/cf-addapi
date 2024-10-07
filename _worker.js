@@ -25,7 +25,7 @@ let HK_IPS = '156.59.152.144#自选反代优选HK\n' +
 export default {
     async fetch(request, env, ctx) {
         return new Response(
-            URLS + "\n" +
+            URLS + '\n' +
             US_IPS + '\n'
             HK_IPS
     )
