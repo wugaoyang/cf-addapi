@@ -8,6 +8,8 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
+let URLS='www.ipget.net';
+
 let US_IPS = '104.17.74.165#自选官方优选US 23.16MB/s\n' +
     '141.101.120.87#自选官方优选US 22.99MB/s\n' +
     '104.16.223.60#自选官方优选US 11.67MB/s\n' +
@@ -21,6 +23,6 @@ let HK_IPS = '156.59.152.144#自选反代优选HK\n' +
     '154.218.15.140#自选反代优选HK';
 export default {
     async fetch(request, env, ctx) {
-        return new Response(US_IPS + HK_IPS);
+        return new Response(URLS + US_IPS + HK_IPS);
     },
 };
