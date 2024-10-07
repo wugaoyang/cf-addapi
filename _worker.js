@@ -26,9 +26,8 @@ export default {
     async fetch(request, env, ctx) {
         return new Response(
             URLS + '\n' +
-            US_IPS + '\n'
+            US_IPS + '\n' +
             HK_IPS
-    )
-        ;
+        );
     },
 };
